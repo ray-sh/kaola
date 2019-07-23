@@ -1,8 +1,10 @@
 defmodule DataCenter do
-   def init(ops) do
-
+   require Utils
+   Utils.new_action(:create_datacenter,context) do
+      context
    end
-   def create_datacenter(%TestBed) do
-      name
+
+   def create_cluster(context) do
+      context
    end
 end

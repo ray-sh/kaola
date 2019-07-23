@@ -3,4 +3,8 @@ defmodule DataCenterTest do
    test "ceate data center" do
       assert DataCenter.create_datacenter("test") == "test"
    end
+
+   test "create cluster" do
+
+   end
 end
